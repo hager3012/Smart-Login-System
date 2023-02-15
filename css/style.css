@@ -1,0 +1,32 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    text-align: left;
+
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+h1 {
+    color: #17a2b8;
+}
+input{
+    background-color: transparent !important;
+    color: #c5c0c0 !important;
+}
+input::-webkit-input-placeholder{
+    color: #c5c0c0 !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+input:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
